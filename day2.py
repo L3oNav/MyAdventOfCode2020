@@ -15,6 +15,7 @@ for lin in password:
 
     num1, num2 = num1-1, num2-1
 
+    #Solution 2
     c = 0
     if value[int(num1)] == letter: c += 1
     if value[int(num2)] == letter: c += 1
